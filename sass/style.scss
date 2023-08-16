@@ -21,6 +21,22 @@ body {
 
 }
 
+/*h2 / p / h3 */
+
+.container h2 {
+    font-family:'Lato', sans-serif;
+    font-size: 50px;
+    margin: 0;
+    padding: 80px 0 0 0;
+}
+
+.container p {
+    margin: 0;
+    font-family: 'Bitter', serif;
+    font-style: italic;
+    padding: 0 0 70px 0;
+}
+
 /*Navigation*/
 .navigation {
     padding: 30px 0;
@@ -51,6 +67,7 @@ body {
 .splash {
     background-image: url(https://i.postimg.cc/pVnK7Bz0/background-kopia.jpg);
     height: 100vh;
+    min-height: 1000px;
     background-position: center center;
     background-attachment: fixed;
     background-size: cover;
@@ -109,21 +126,7 @@ body {
     color: #ffffff;
 }
 
-/*h2 / p / h3 */
 
-.container h2 {
-    font-family:'Lato', sans-serif;
-    font-size: 50px;
-    margin: 0;
-    padding: 80px 0 0 0;
-}
-
-.container p {
-    margin: 0;
-    font-family: 'Bitter', serif;
-    font-style: italic;
-    padding: 0 0 70px 0;
-}
 
 /*SERVICES*/
 
@@ -137,42 +140,48 @@ body {
     background: #e4e4e4;
 }
 
-
-
-.portfolio .container .row .col .card {
+.portfolio .container .row .card {
     margin: 0 0 0 0 ;
     padding: 0 0 0 0;
 }
 
-.portfolio .container .row .col .card .card-body {
+.portfolio .container .row  .card  img {
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.portfolio .container .row  .card .card-body {
     background-color: #ffffff;
     margin: 0 0 40px 0;
     padding: 30px 0 30px 0;
 }
 
-.portfolio .container .row .col .card .card-body h3 {
+.portfolio .container .row  .card .card-body h3 {
     margin: 0;
     padding: 0;
 }
 
-.portfolio .container .row .col .card .card-body p {
+.portfolio .container .row .card .card-body p {
     margin: 0;
     padding: 0;
 }
 
 /*FOOTER*/
 
-.footer .container .row  {
-    margin: 0 auto;
-    justify-content: left;
-
-}
-
 .footer .container ul {
     list-style-type: none;
     width: fit-content;
-    margin: 0 auto;
-    
+    margin: 0;
+}
+
+.footer .container .copyright {
+    display: flex;
+    align-items: center;
+}
+
+.footer .container .copyright p {
+    padding: 0;
 }
 
 .footer .container ul li {
@@ -190,4 +199,5 @@ body {
     border-radius: 50%;
     text-align: center;
 }
+
 
