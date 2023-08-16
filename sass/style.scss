@@ -200,4 +200,26 @@ body {
     text-align: center;
 }
 
+/*Media*/
+
+@media (min-width: 300px) and (max-width: 768px) {
+    .navigation {
+        position: relative;
+    }
+    .navigation ul li {
+        display: block;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 1150px) {
+
+    .navigation {
+        position: relative;
+    }
+    .navigation ul li {
+        display: block;
+    }
+
+}
 
